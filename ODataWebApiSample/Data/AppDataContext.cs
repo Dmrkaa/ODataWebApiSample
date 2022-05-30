@@ -18,9 +18,9 @@ namespace ODataWebApiSample.Data
                 Brands.Add(brand1);
                 Brands.Add(brand2);
                 Products.Add(new Product { Id = 1, Name = "12ProMax", Price = 1000, BrandId = 1 });
-                Products.Add(new Product { Id = 2, Name = "12", Price = 1000, BrandId = 1 });
-                Products.Add(new Product { Id = 3, Name = "A10", Price = 1000, BrandId = 2 });
-                Products.Add(new Product { Id = 4, Name = "S2", Price = 1000, BrandId = 2 });
+                Products.Add(new Product { Id = 2, Name = "12", Price = 950, BrandId = 1 });
+                Products.Add(new Product { Id = 3, Name = "A10", Price = 800, BrandId = 2 });
+                Products.Add(new Product { Id = 4, Name = "S2", Price = 799, BrandId = 2 });
                 SaveChanges();
             }
         }

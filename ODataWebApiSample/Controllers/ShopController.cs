@@ -36,9 +36,9 @@ namespace ODataWebApiSample.Controllers
         [HttpGet]
         [EnableQuery]
         [Route("Products")]
-        public IEnumerable<Brand> GetProducts()
+        public IEnumerable<Product> GetProducts()
         {
-            var result = _context.Brands;
+            var result = _context.Products;
             return result;
         }
     }
